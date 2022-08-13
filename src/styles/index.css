@@ -1,0 +1,139 @@
+body {
+   margin: 0;
+   padding: 0;
+   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+   Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+   background-color: #202124;
+   color: #fff;
+}
+
+nav {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   margin: 0 5%;
+}
+
+nav h2 {
+   font-size: 50px;
+}
+
+input, textarea {
+   width: 400px;
+   background-color: transparent;
+   color: #fff;
+   padding: 12px 20px;
+   margin: 8px 0;
+   display: inline-block;
+   border: 1px solid #fff;
+   border-radius: 4px;
+}
+
+.main {
+   margin: 0 5%;
+   padding: 0;
+}
+
+.item {
+   display: flex;
+   justify-content: space-between;
+}
+
+.item-container {
+   display: flex;
+   flex-wrap: wrap;
+}
+
+.form {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+
+.form .title-length {
+   display: flex;
+   justify-content: flex-end;
+}
+
+.form button {
+   background-color: transparent;
+   border: 1px solid #fff;
+   border-radius: 4px;
+   color: #fff;
+   cursor: pointer;
+   display: block;
+   font-weight: 700;
+   padding: 8px;
+   width: 300px;
+}
+
+.form button:hover {
+   background-color: green;
+}
+
+.text-top {
+   margin-bottom: 12px;
+}
+
+.text-top h4 {
+   font-size: 20px;
+   margin: 3px;
+}
+
+.text-top .date {
+   color: #aaa;
+   font-size: 12px;
+}
+
+.text p{
+   font-size: 15px;
+}
+
+.card {
+   max-width: 250px;
+   max-height: 300px;
+   display: flex;
+   flex-direction: column;
+   background-color: transparent;
+   border: 1px solid #aaa;
+   border-radius: 10px;
+   margin: 5px;
+   padding: 12px;
+   color: #fff;
+}
+
+.card-button {
+   display: flex;
+}
+
+.card-button button {
+   background-color: transparent;
+   border: 1px solid #aaa;
+   border-radius: 10px;
+   cursor: pointer;
+   display: block;
+   padding: 8px 0;
+   width: 100%;
+}
+
+.card-button .move {
+   color: green;
+}
+
+.move:hover {
+   background-color: green;
+   color: #fff;
+}
+
+.card-button .delete {
+   color: red;
+}
+
+.delete:hover {
+   background-color: red;
+   color: #fff;
+}
+
+
+
+
